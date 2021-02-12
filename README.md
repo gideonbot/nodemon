@@ -51,15 +51,13 @@ nodemon ./server.js localhost 8080
 
 Any output from this script is prefixed with `[nodemon]`, otherwise all output from your application, errors included, will be echoed out as expected.
 
-If no script is given, nodemon will test for a `package.json` file and if found, will run the file associated with the *main* property ([ref](https://github.com/remy/nodemon/issues/14)).
-
 You can also pass the `inspect` flag to node through the command line as you would normally:
 
 ```bash
 nodemon --inspect ./server.js 80
 ```
 
-If you have a `package.json` file for your app, you can omit the main script entirely and nodemon will read the `package.json` for the `main` property and use that value as the app.
+If you have a `package.json` file for your app, you can omit the main script entirely and nodemon will read the `package.json` for the `main` property and use that value as the app ([ref](https://github.com/remy/nodemon/issues/14)).
 
 nodemon will also search for the `scripts.start` property in `package.json` (as of nodemon 1.1.x).
 
@@ -370,9 +368,13 @@ Thank you to all [our backers](https://opencollective.com/nodemon#backer)! 🙏
 
 Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [Sponsor this project today ❤️](https://opencollective.com/nodemon#sponsor)
 
-[<img src="https://user-images.githubusercontent.com/13700/35731651-677aa3fc-080e-11e8-8580-75fa92db56ec.png" width="200">](https://sparkpo.st/nodemon)
-
 [<img src="https://user-images.githubusercontent.com/13700/35731622-421d4466-080e-11e8-8ddc-11c70e1cd79e.png" width="200">](https://mixmax.com)
+
+[<img alt="topratedcasinosites.co.uk" src="https://user-images.githubusercontent.com/13700/105379186-7d7e8400-5c04-11eb-89c0-4a5a9328e933.png" width="200">](https://www.topratedcasinosites.co.uk/)
+
+[<img src="https://user-images.githubusercontent.com/13700/106011732-a72b2580-60b2-11eb-9d6a-24bf958de95d.png" width="200">](https://www.najlepszeplatformyforex.pl/blog/broker-xtb/)
+
+
 
 # License
 
